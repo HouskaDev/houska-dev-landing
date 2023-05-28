@@ -21,7 +21,7 @@ function App() {
           </div>
           <div className="text-xl ml-3 cursor-pointer">
             <a
-              href="https://github.com/OndrejHj04"
+              href="https://github.com/HouskaDev"
               target="_blank"
               className="underline"
               rel="noreferrer"
