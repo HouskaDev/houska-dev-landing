@@ -9,45 +9,23 @@ function App() {
             <p>Houska</p>
             <p>DEV.</p>
           </div>
-          <div className="text-xl ml-3 cursor-pointer">
-            <a
-              href="https://discord.gg/KepBuZjn"
-              target="_blank"
-              className="underline"
-              rel="noreferrer"
-            >
-              Discord
-            </a>
-          </div>
-          <div className="text-xl ml-3 cursor-pointer">
-            <a
-              href="https://github.com/HouskaDev"
-              target="_blank"
-              className="underline"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
-          </div>
         </div>
-        <div className="flex-1 flex justify-center text-white mx-8 flex-col">
+        <div className="flex-1 flex justify-center items-start text-white mx-2 md:mx-8 flex-col">
           <TypeAnimation
             sequence={[
-              `We 💘 building UX & UI`,
+              `Děláme design, který ✨.`,
               2000,
-              "We 💘 to programm Fullstack apps",
+              "Programování je náš 🐴.",
               2000,
-              "We use GraphQL 📊",
+              "📱 aplikace? Není problém.",
               2000,
-              "We are building 📱 apps",
+              "Ať o vašem podnikání ví celý 🌍.",
               2000,
-              "We 💘 to programm in React",
-              2000,
-              "We are 🆒 community",
+              "Webové aplikace které 🛠️.",
               2000,
             ]}
             wrapper="span"
-            className="xl:text-7xl md:text-5xl text-2xl"
+            className="xl:text-7xl md:text-5xl text-2xl text-center"
             cursor={true}
             repeat={Infinity}
           />
